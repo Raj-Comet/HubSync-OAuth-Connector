@@ -1,0 +1,18 @@
+{
+  "name": "hubspot-oauth-connector",
+  "version": "1.0.0",
+  "description": "HubSpot OAuth connector - Backend + Frontend",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:backend": "echo 'Backend is pure Node.js, no build needed'",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run preview"
+  }
+}
